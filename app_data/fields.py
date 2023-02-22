@@ -4,7 +4,7 @@ import six
 
 from django import forms
 from django.db.models import TextField
-from django.utils.encoding import smart_text
+from django.utils.encoding import smart_str as smart_text
 
 from .registry import app_registry
 from .containers import AppDataContainerFactory
